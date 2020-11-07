@@ -1,0 +1,43 @@
+{
+    "createSite" : {
+    "typeTit": "웹사이트 구축",
+    "typeTxt" : "PC, 모바일(반응형포함) 메인/서브",
+    "typeNm" : "createSite",
+    "typeList" : [
+        {"imgThumb" : "img_sample.jpg", "tit" : "1미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg", "img_sample.jpg"], "img": ["img_sample.jpg", "img_sample.jpg"], "mainPosi" : true},
+        {"imgThumb" : "img_sample.jpg", "tit" : "2미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg"], "img": ["img_sample.jpg", "img_sample.jpg"]},
+        {"imgThumb" : "img_sample.jpg", "tit" : "3미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"]},
+        {"imgThumb" : "img_sample.jpg", "tit" : "3미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"]},
+        {"imgThumb" : "img_sample2.jpg", "tit" : "3미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"], "mainPosi" : true}
+    ]
+  },
+   "createApp" : {
+    "typeTit": "앱화면 디자인",
+    "typeTxt" : "네이티브/모바일웹 앱 관련",
+    "typeNm" : "createApp",
+    "typeList" : [
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"], "mainPosi" : true},
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg", "img_sample.jpg"], "img": ["img_sample.jpg", "img_sample.jpg"]},
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"]}
+    ]
+  },
+  "maintanance" : {
+    "typeTit": "서브컨텐츠/이벤트",
+    "typeTxt" : "페이지 유지보수",
+    "typeNm" : "maintanance",
+    "typeList" : [
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"], "mainPosi" : true},
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg", "img_sample.jpg"], "img": ["img_sample.jpg", "img_sample.jpg"]},
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "img": ["img_sample.jpg", "img_sample.jpg"]}
+    ]
+  },
+   "other" : {
+    "typeTit": "배너/기타",
+    "typeTxt" : "기타 웹요소",
+    "typeNm" : "other",
+    "typeList" : [
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "img": ["img_sample.jpg", "img_sample.jpg"], "mainPosi" : true},
+        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "img": ["img_sample.jpg", "img_sample.jpg"]}
+    ]
+  }
+}
