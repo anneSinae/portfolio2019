@@ -1,0 +1,6 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# pp images
+/images/pp_design
+/images/pp_publishing
+/images/pp_others

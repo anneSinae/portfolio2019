@@ -197,7 +197,9 @@ function loadPortfolio(target, info) {
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
 			var unit = ".type";
 			var $sample = $(target).find(unit).first();
+			console.log("퍼블요청");
 			$.each(data, function(key, type) {
+				console.log(data);
 				var $type = $sample.clone().find("ul").empty().parent(unit);
 				var $currType = $(target).append($type).find(unit).last();
 				$currType.addClass(key);
@@ -205,9 +207,13 @@ function loadPortfolio(target, info) {
 				$currType.find(".tit span").text(type.typeTxt);
 				type.typeList.forEach(function(list) {
 					var $currLi = $currType.find("ul").append($sample.find("li").clone().find(".sub").empty().parents("li")).find("li").last();
-					$currLi.find(".img img").attr("src", "images/" + list.imgThumb).load(function() { setMasonry(target + " ul"); });
+					!!list.imgThumb ? $currLi.find(".img img").attr("src", "images/" + list.imgThumb) : $currLi.find(".img").remove();
+					$currLi.find(".img img").load(function() { 
+						setMasonry(target + " ul"); 
+					});
 					$currLi.find(".info dt").text(list.tit);
 					$currLi.find(".info .info_detail").text(list.note);
+					ppType === "publishing" && $currLi.find(".info .info_url").text(list.url);
 					if(!!list.imgSubThumb) {
 						list.imgSubThumb.forEach(function(imgSub) {
 							$("<img>").appendTo($currLi.find(".info .sub")).attr("src", "images/" + imgSub).attr("alt", list.tit + " image");
@@ -254,11 +260,11 @@ function setMasonry(target) {
 				if(childIndex < colNum) {
 					arrLeft.push($(this).position().left);
 					arrTop.push(thisH);
-					$(this).stop().animate({"top" : 0, "left" : arrLeft[childIndex]}, 400);
+					$(this).stop().animate({"top" : 0, "left" : arrLeft[childIndex]}, 0);
 				} else {
 					var minTop = Math.min.apply(Math, arrTop);
 					var minIndex = arrTop.indexOf(minTop);
-					$(this).stop().animate({"top" : minTop, "left" : arrLeft[minIndex]}, 400);
+					$(this).stop().animate({"top" : minTop, "left" : arrLeft[minIndex]}, 0);
 					arrTop[minIndex] = thisH + minTop + otherSpaceH;
 				}
 			});

@@ -1,34 +1,223 @@
 {
-  "createSite" : {
-    "typeTit": "웹사이트 구축",
-    "typeTxt" : "PC, 모바일(반응형포함) 메인/서브",
-    "typeNm" : "createSite",
-    "typeList" : [
-        {"imgThumb" : "img_sample.jpg", "tit" : "1미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg", "img_sample.jpg"], "mainPosi" : true},
-        {"imgThumb" : "img_sample.jpg", "tit" : "2미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg"]},
-        {"imgThumb" : "img_sample.jpg", "tit" : "3미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%"},
-        {"imgThumb" : "img_sample.jpg", "tit" : "3미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%"},
-        {"imgThumb" : "img_sample.jpg", "tit" : "3미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "mainPosi" : true}
-    ]
-  },
-  "maintanance" : {
+  "maintanance": {
     "typeTit": "유지보수/기능작업",
-    "typeTxt" : "유지보수/기능작업",
-    "typeNm" : "maintanance",
-    "typeList" : [
-        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "mainPosi" : true},
-        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%", "note" : "인테리어 웹사이트디자인을 해보고싶어서 작업했던 시안. 고객이 인테리어 웹사이트에 들어오면 어떤 느낌과 정보를 먼저 원할까 생각하며 문구와 컨텐츠를 구성", "imgSubThumb" : ["img_sample.jpg", "img_sample.jpg", "img_sample.jpg"]},
-        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "url" : "http://www.koreatimes.com", "rate" : "design 100%"}
+    "typeTxt": "유지보수/기능작업",
+    "typeNm": "maintanance",
+    "typeList": [
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco.jpg",
+        "tit": "한국전력공사(KEPCO) ",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-art.jpg",
+        "tit": "한국전력 아트센터",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-sport.jpg",
+        "tit": "KEPCO스포츠단(배구단, 럭비단, 육상단)",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-crowd.jpg",
+        "tit": "KEPCO크라우드",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-electcar.jpg",
+        "tit": "한국전력 전기차충전소",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-energy.jpg",
+        "tit": "한국전력 에너지밸리",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-supporters.jpg",
+        "tit": "한국전력 서포터즈",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/maintanance/kepco-export.jpg",
+        "tit": "한국전력 수출지원포털",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "tit": "한국전력 내부시스템 유지보수",
+        "note": "청렴윤리포탈, 중소기업지원업무시스템 ,사회공헌활동관리시스템, 직무분석관리시스템, 피복관리시스템, EA관리시스템, IT플라자 등"
+      }
     ]
   },
-  "other" : {
-    "typeTit": "기타 개인작업물",
-    "typeTxt" : "기타 개인작업물",
-    "typeNm" : "other",
-    "typeList" : [
-        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼", "mainPosi" : true},
-        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼"},
-        {"imgThumb" : "img_sample.jpg", "tit" : "미주 한국일보(The Korea Times)", "summary" : "공식사이트 리뉴얼"}
+  "createSite": {
+    "typeTit": "웹사이트 구축",
+    "typeTxt": "PC, 모바일(반응형포함)",
+    "typeNm": "createSite",
+    "typeList": [
+      {
+        "imgThumb": "/pp_publishing/createSite/kepco-kemri.jpg",
+        "tit": "한국전력 경영연구원",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://home.kepco.co.kr/kepco/KR/kemri/main/kemriMain.do"
+      },
+      {
+        "imgThumb": "/pp_publishing/createSite/kepco-university.jpg",
+        "tit": "학교법인 한국전력공과대학교",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://home.kepco.co.kr/kepco/KTE/main/main.do"
+      },
+      {
+        "imgThumb": "/pp_publishing/createSite/kepco-supergrid.jpg",
+        "tit": "한국전력 동북아수퍼그리드",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://home.kepco.co.kr/kepco/SG/main/main.do"
+      },
+      {
+        "imgThumb": "/pp_publishing/createSite/kepco-findjob.jpg",
+        "tit": "한국전력 좋은일자리 만들기",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://home.kepco.co.kr/kepco/JM/jobMake/main.do"
+      },
+      {
+        "imgThumb": "/pp_publishing/createSite/kepco-mediacon.jpg",
+        "tit": "한국전력 한전미디어콘텐츠공모전",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://home.kepco.co.kr/kepco/ME/main.do"
+      },
+      {
+        "imgThumb": "/pp_publishing/createSite/kepco-pannel.jpg",
+        "tit": "한국전력 국민소통 패널단",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://home.kepco.co.kr/kepco/PN/main/main.do"
+      },
+      {
+        "tit": "한국전력 진흥형SCADA",
+        "note": "운영중지"
+      },
+      {
+        "tit": "한전공대 설계공모사이트",
+        "note": "운영중지"
+      },
+      {
+        "tit": "한국전력 내부시스템 리뉴얼",
+        "note": "주주총회 우리사주, 위기관리포털, 법무정보사이트, 청운재, 생활관 , 보안점검 관리시스템 등 리뉴얼"
+      },
+      {
+        "imgThumb": "/pp_design/web/koreatimes1.jpg",
+        "tit": "미주한국일보",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://www.koreatimes.com/"
+      },
+      {
+        "imgThumb": "/pp_design/web/koreatimes-ktalk1.jpg",
+        "tit": "미주한국일보 케이톡",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://talk.koreatimes.com/"
+      },
+      {
+        "imgThumb": "/pp_design/web/koreatimes-market1.jpg",
+        "tit": "미주한국일보 주간마켓",
+        "note": "공식사이트 리뉴얼",
+        "url": "http://img.koreatimes.com/market/?loc=LA"
+      },
+      {
+        "imgThumb": "/pp_design/web/koreatimes-epaper1.jpg",
+        "tit": "미주한국일보 전자신문",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://epaper.koreatimes.com/"
+      },
+      {
+        "tit": "미주한국일보 기타 특별섹션, 프로모션 페이지 제작",
+        "note": "공식사이트 리뉴얼"
+      },
+      {
+        "imgThumb": "/pp_design/web/kakaobot1.jpg",
+        "tit": "카카오톡봇 ",
+        "note": "개인협업프로젝트 - 카카오톡 오픈챗 운영시 대화관리 및 신규member에게 자동인사하는 메시지관리 사이트(반응형)",
+        "url": "http://anne-sinae.com/kakao/"
+      }
+    ]
+  },
+  "script": {
+    "typeTit": "특정기능 스크립트작업",
+    "typeTxt": "Work/Practice",
+    "typeNm": "script",
+    "typeList": [
+      {
+        "imgThumb": "/pp_publishing/script/draggable-slider.png",
+        "tit": "Draggable 슬라이드",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/draggable%20slider"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/guage-circle.png",
+        "tit": "원형 간단 그래프",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/tree/master/guage%20circle"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/set-time-with-scroll.png",
+        "tit": "시간세팅",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/set%20time%20with%20scroll/clock.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/checkbox-length-limited.png",
+        "tit": "체크박스 선택개수 제한",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/checkbox%20length%20limited/checkbox%20length%20limited.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/bar-chart-v.png",
+        "tit": "막대그래프-세로",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/bar%20chart/bar_chart_vertical.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/bar-chart-h.png",
+        "tit": "막대그래프-가로",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/bar%20chart/bar_chart_horizontal.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/show-table-list-at-specific-time.png",
+        "tit": "특정시간에 특정리스트 보이기",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/show%20table%20list%20at%20specific%20time/show%20table%20list%20at%20specific%20time.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/table-scroll-both.png",
+        "tit": "테이블 가로세로스크롤",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/table%20scroll%20both/table%20scroll%20both.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/kepco-export-self-diagnose.png",
+        "tit": "한국전력 수출지원포털 자가진단",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://export.kepco.co.kr/ft/es/ec/ec001.do"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/insert-comma-on-number.png",
+        "tit": "숫자 콤마 넣기",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/insert%20comma%20on%20number/insert%20comma%20on%20number.html"
+      },
+      {
+        "imgThumb": "/pp_publishing/script/auto-move-filled-input-cursor-to-other-input.png",
+        "tit": "인풋 세팅글자수 입력후 다음 인풋 넘어가기 ",
+        "note": "공식사이트 리뉴얼",
+        "url": "https://github.com/anneSinae/javascript/blob/master/auto%20move%20filled%20input%20cursor%20to%20other%20input/auto%20move%20filled%20input%20cursor%20to%20other%20input.html"
+      }
     ]
   }
 }
