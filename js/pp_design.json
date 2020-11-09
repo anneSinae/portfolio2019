@@ -5,255 +5,218 @@
     "typeNm" : "web",
     "typeList" : [
         {
-          "imgThumb": "/pp_design/web/daeheung1.jpg",
-          "tit": "대흥산업",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/daeheung1.jpg",
-            "/pp_design/web/daeheung2.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/daelim1.jpg",
-          "tit": "대림바스 렌탈쇼핑몰",
-          "summary": "메인/서브시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/daelim1.jpg",
-            "/pp_design/web/daelim2.jpg",
-            "/pp_design/web/daelim3.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/gogomarket.jpg",
-          "tit": "GOGO Market",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/gogomarket.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/happioom.jpg",
-          "tit": "해피움",
-          "summary": "메인시안(연습시안)",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/happioom.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/himcar.jpg",
-          "tit": "하이엠카",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/himcar.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/infinien1.jpg",
-          "tit": "인피니언 컨설팅",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/infinien1.jpg",
-            "/pp_design/web/infinien2.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/infinienmdg1.jpg",
-          "tit": "인피니언 컨설팅 MDG",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/infinienmdg1.jpg",
-            "/pp_design/web/infinienmdg2.jpg",
-            "/pp_design/web/infinienmdg3.jpg",
-            "/pp_design/web/infinienmdg4.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/jinsung1.jpg",
-          "tit": "진성 애드피아",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/jinsung1.jpg",
-            "/pp_design/web/jinsung2.jpg",
-            "/pp_design/web/jinsung3.jpg",
-            "/pp_design/web/jinsung4.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/jobkoreaUSA.jpg",
-          "tit": "Jobkorea USA 홍보",
-          "summary": "기업대상 상품안내페이지",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/jobkoreaUSA.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/kakaobot1.jpg",
-          "tit": "카카오 채팅봇(개인협력 프로젝트)",
-          "summary": "반응형 사이트",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/kakaobot1.jpg",
-            "/pp_design/web/kakaobot2.jpg",
-            "/pp_design/web/kakaobot-m1.jpg",
-            "/pp_design/web/kakaobot-m2.jpg",
-            "/pp_design/web/kakaobot-m3.jpg",
-            "/pp_design/web/kakaobot-m4.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/kepco1.jpg",
+          "imgThumb": "pp_design/web/kepco_list.jpg",
           "tit": "한국전력공사(KEPCO)",
-          "summary": "리뉴얼 메인 제안시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
+          "note": "한국전력에서는 퍼블리싱 전용포지션으로 근무했지만 빠듯한 작업시일 때문에 시안개수를 채우기위해 작업권유를 받고 디자인했던 리뉴얼 메인 제안시안",
           "img": [
-            "/pp_design/web/kepco1.jpg",
-            "/pp_design/web/kepco2.jpg"
-          ]
+            "pp_design/web/kepco1.jpg",
+            "pp_design/web/kepco2.jpg"
+          ],
+          "mainPosi": true
         },
         {
-          "imgThumb": "/pp_design/web/kingstar.jpg",
-          "tit": "킹스타",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/kingstar.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/koreatimes1.jpg",
-          "tit": "미주 한국일보(The Korea Times)",
-          "summary": "공식사이트 리뉴얼",
-          "rate": "design 100%",
-          "url" : "http://www.koreatimes.com",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/koreatimes1.jpg",
-            "/pp_design/web/koreatimes2.jpg",
-            "/pp_design/web/koreatimes3.jpg",
-            "/pp_design/web/koreatimes4.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/koreatimes-app-promo1.jpg",
-          "tit": "미주 한국일보 통합앱 출시홍보",
-          "summary": "프로모션페이지 PC/Mobile 페이지 작업",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/koreatimes-app-promo1.jpg",
-            "/pp_design/web/koreatimes-app-promo2.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/koreatimes-epaper1.jpg",
-          "tit": "미주 한국일보 전자신문 리뉴얼",
-          "summary": "메인/서브시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/koreatimes-epaper1.jpg",
-            "/pp_design/web/koreatimes-epaper2.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/koreatimes-ktalk1.jpg",
-          "tit": "미주 한국일보 K-Talk",
-          "summary": "신규서비스 디자인",
-          "rate": "design 100%",
-          "note": "미주 한인 커뮤니티 서비스",
-          "img": [
-            "/pp_design/web/koreatimes-ktalk1.jpg",
-            "/pp_design/web/koreatimes-ktalk2.jpg",
-            "/pp_design/web/koreatimes-ktalk3.jpg",
-            "/pp_design/web/koreatimes-ktalk-m1.jpg",
-            "/pp_design/web/koreatimes-ktalk-m2.jpg",
-            "/pp_design/web/koreatimes-ktalk-m3.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/koreatimes-market1.jpg",
-          "tit": "미주 한국일보 금주의 마켓 리뉴얼",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
-          "img": [
-            "/pp_design/web/koreatimes-market1.jpg",
-            "/pp_design/web/koreatimes-market2.jpg"
-          ]
-        },
-        {
-          "imgThumb": "/pp_design/web/koreatimes-showme.jpg",
+          "imgThumb": "pp_design/web/koreatimes-showme_list.jpg",
           "tit": "미주 한국일보 Show me the 맛집",
-          "summary": "프로모션 페이지",
-          "rate": "design 100%",
           "note": "한인 커뮤니티 맛집추천 이벤트페이지",
           "img": [
-            "/pp_design/web/koreatimes-showme.jpg"
+            "pp_design/web/koreatimes-showme.jpg"
           ]
         },
         {
-          "imgThumb": "/pp_design/web/lohas1.jpg",
+          "imgThumb": "pp_design/web/happioom_list.jpg",
+          "tit": "해피움",
+          "note": "인테리어관련 디자인이 해보고싶어서 개인적으로 연습한 메인시안",
+          "img": [
+            "pp_design/web/happioom.jpg"
+          ],
+          "mainPosi": true
+        },
+        {
+          "imgThumb": "pp_design/web/daeheung_list.jpg",
+          "tit": "대흥산업",
+          "note": "메인시안",
+          "img": [
+            "pp_design/web/daeheung1.jpg",
+            "pp_design/web/daeheung2.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/gogomarket_list.jpg",
+          "tit": "GOGO Market",
+          "note": "메인시안",
+          "img": [
+            "pp_design/web/gogomarket.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/jobkoreaUSA_list.jpg",
+          "tit": "Jobkorea USA 홍보",
+          "note": "기업대상 상품안내페이지. 작업당시 상품목록자료만 있고 화면기획이 없어 상품별로 어떤 특성이 있는지 직접 알아보며 적절한 문구와 내용, 이미지를 구성하느라 힘들었던 디자인",
+          "url": "https://jobkoreausa.com/work/services.html",
+          "img": [
+            "pp_design/web/jobkoreaUSA.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/himcar_list.jpg",
+          "tit": "하이엠카",
+          "note": "메인시안",
+          "img": [
+            "pp_design/web/himcar.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/infinien_list.jpg",
+          "tit": "인피니언 컨설팅",
+          "note": "메인, 서브페이지 디자인",
+          "img": [
+            "pp_design/web/infinien1.jpg",
+            "pp_design/web/infinien2.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/infinienmdg_list.jpg",
+          "tit": "인피니언 컨설팅 MDG",
+          "note": "메인, 서브페이지 디자인",
+          "img": [
+            "pp_design/web/infinienmdg1.jpg",
+            "pp_design/web/infinienmdg2.jpg",
+            "pp_design/web/infinienmdg3.jpg",
+            "pp_design/web/infinienmdg4.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/jinsung_list.jpg",
+          "tit": "진성 애드피아",
+          "note": "메인, 서브페이지 디자인",
+          "img": [
+            "pp_design/web/jinsung1.jpg",
+            "pp_design/web/jinsung2.jpg",
+            "pp_design/web/jinsung3.jpg",
+            "pp_design/web/jinsung4.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/kakaobot_list.jpg",
+          "tit": "카카오 채팅봇(개인협력 프로젝트)",
+          "note": "개인협업프로젝트 - 카카오톡 오픈챗 운영시 대화관리 및 신규member에게 자동인사하는 메시지관리 사이트(반응형)",
+          "url": "http://www.koreatimes.com/",
+          "img": [
+            "pp_design/web/kakaobot1.jpg",
+            "pp_design/web/kakaobot2.jpg",
+            "pp_design/web/kakaobot-m1.jpg",
+            "pp_design/web/kakaobot-m2.jpg",
+            "pp_design/web/kakaobot-m3.jpg",
+            "pp_design/web/kakaobot-m4.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/kingstar_list.jpg",
+          "tit": "킹스타",
+          "note": "메인 제안시안",
+          "img": [
+            "pp_design/web/kingstar.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/koreatimes_list.jpg",
+          "tit": "미주 한국일보(The Korea Times)",
+          "note": "공식사이트 리뉴얼. 메인작업시 컨텐츠중요도, 상업적요소 등을 고려한 배치가 주요 이슈였으며 기사상세, 오피니언, 전문가칼럼, 포토뉴스, 등 전반적페이지 리뉴얼. 모바일도 진행",
+          "url" : "http://www.koreatimes.com",
+          "img": [
+            "pp_design/web/koreatimes1.jpg",
+            "pp_design/web/koreatimes2.jpg",
+            "pp_design/web/koreatimes3.jpg",
+            "pp_design/web/koreatimes4.jpg"
+          ],
+          "mainPosi": true
+        },
+        {
+          "imgThumb": "pp_design/web/koreatimes-app-promo_list.jpg",
+          "tit": "미주 한국일보 통합앱 출시홍보",
+          "note": "다운로드 방법 및 한국일보 모든 서비스를 통합한 앱을 홍보하는 화면. PC/Mobile 페이지 작업",
+          "img": [
+            "pp_design/web/koreatimes-app-promo1.jpg",
+            "pp_design/web/koreatimes-app-promo2.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/koreatimes-epaper_list.jpg",
+          "tit": "미주 한국일보 전자신문 리뉴얼",
+          "url" : "https://epaper.koreatimes.com/",
+          "note": "메인/서브화면 디자인",
+          "img": [
+            "pp_design/web/koreatimes-epaper1.jpg",
+            "pp_design/web/koreatimes-epaper2.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/koreatimes-ktalk_list.jpg",
+          "tit": "미주 한국일보 K-Talk",
+          "note": "미주 한인 커뮤니티 서비스. PC와 모바일을 모두 고려하여 반응형으로 제작",
+          "img": [
+            "pp_design/web/koreatimes-ktalk1.jpg",
+            "pp_design/web/koreatimes-ktalk2.jpg",
+            "pp_design/web/koreatimes-ktalk3.jpg",
+            "pp_design/web/koreatimes-ktalk-m1.jpg",
+            "pp_design/web/koreatimes-ktalk-m2.jpg",
+            "pp_design/web/koreatimes-ktalk-m3.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/koreatimes-market_list.jpg",
+          "tit": "미주 한국일보 금주의 마켓 리뉴얼",
+          "note": "기존 금주의 마켓서비스를 리뉴얼. 마켓관련 기사를 따로 모아 보여주던 컨텐츠와 마트별 전단에서 소개하는 식자재나 상품들에서 떠올린 이미지와 문구들을 활용하여 디자인",
+          "url": "http://img.koreatimes.com/market/?loc=LA",
+          "img": [
+            "pp_design/web/koreatimes-market1.jpg",
+            "pp_design/web/koreatimes-market2.jpg"
+          ]
+        },
+        {
+          "imgThumb": "pp_design/web/lohas_list.jpg",
           "tit": "로하스 코리아",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
+          "note": "Lohas의 의미처럼 친환경적인 느낌을 주는 일러스트와 색상을 사용. 로고의 색감을 참조하여 사이트전체 색감을 배치했음. CI소개와 미션, 로하스가 추구하는 삶에 관한 페이지 디자인",
           "img": [
-            "/pp_design/web/lohas1.jpg",
-            "/pp_design/web/lohas2.jpg",
-            "/pp_design/web/lohas3.jpg",
-            "/pp_design/web/lohas4.jpg"
+            "pp_design/web/lohas1.jpg",
+            "pp_design/web/lohas2.jpg",
+            "pp_design/web/lohas3.jpg",
+            "pp_design/web/lohas4.jpg"
+          ],
+          "mainPosi": true
+        },
+        {
+          "imgThumb": "pp_design/web/daelim_list.jpg",
+          "tit": "대림바스 렌탈쇼핑몰",
+          "note": "메인과 상품 상세, 대림바스에 대한 소개페이지",
+          "img": [
+            "pp_design/web/daelim1.jpg",
+            "pp_design/web/daelim2.jpg",
+            "pp_design/web/daelim3.jpg"
           ]
         },
         {
-          "imgThumb": "/pp_design/web/mvp-promo1.jpg",
+          "imgThumb": "pp_design/web/mvp-promo_list.jpg",
           "tit": "MVP성형외과 홍보페이지",
-          "summary": "프로모션 페이지",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
+          "note": "리프팅홍보 페이지 디자인",
           "img": [
-            "/pp_design/web/mvp-promo1.jpg"
+            "pp_design/web/mvp-promo1.jpg"
           ]
         },
         {
-          "imgThumb": "/pp_design/web/nyco1.jpg",
+          "imgThumb": "pp_design/web/nyco_list.jpg",
           "tit": "나이코",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
+          "note": "말끔한 제품사진이 없어 직접 원통의 상품모양을 제작해서 구성했던 시안",
           "img": [
-            "/pp_design/web/nyco1.jpg",
-            "/pp_design/web/nyco2.jpg"
+            "pp_design/web/nyco1.jpg",
+            "pp_design/web/nyco2.jpg"
           ]
         },
         {
-          "imgThumb": "/pp_design/web/uda.jpg",
+          "imgThumb": "pp_design/web/uda_list.jpg",
           "tit": "도시공간 디자인연구소",
-          "summary": "메인시안",
-          "rate": "design 100%",
-          "note": "XXXXXXXXXX",
           "img": [
-            "/pp_design/web/uda.jpg"
+            "pp_design/web/uda.jpg"
           ]
         }
     ]
@@ -264,76 +227,75 @@
     "typeNm" : "app",
     "typeList" : [
         {
-          "imgThumb": "/pp_design/app/hyundai-translead-app3.jpg",
+          "imgThumb": "pp_design/app/hyundai-translead-app_list.jpg",
           "tit": "현대 Translead 화물이동추적 앱",
-          "rate": "design 100%",
+          "note": "화물이동시마다 운전사가 편하게 위치를 등록하고 관리자가 관리할 수 있도록 고안한 앱",
           "img": [
-            "/pp_design/app/hyundai-translead-app1.jpg",
-            "/pp_design/app/hyundai-translead-app2.jpg",
-            "/pp_design/app/hyundai-translead-app3.jpg",
-            "/pp_design/app/hyundai-translead-app4.jpg",
-            "/pp_design/app/hyundai-translead-app5.jpg"
-          ],
-          "mainPosi": true
+            "pp_design/app/hyundai-translead-app1.jpg",
+            "pp_design/app/hyundai-translead-app2.jpg",
+            "pp_design/app/hyundai-translead-app3.jpg",
+            "pp_design/app/hyundai-translead-app4.jpg",
+            "pp_design/app/hyundai-translead-app5.jpg"
+          ]
         },
         {
-          "imgThumb": "/pp_design/app/fixnapp1.jpg",
+          "imgThumb": "pp_design/app/fixnapp_list.jpg",
           "tit": "FIXNAP - 차수리 신청앱",
-          "rate": "design 100%",
+          "note": "미국생활시 카센터정보를 모아 가까운 카센터를 리스팅하고 원하는 곳에 견적을 요청하여 편리하게 차수리를 맡길 수 있도록 한 서비스. 전체 작업화면 대략 25페이지",
           "img": [
-            "/pp_design/app/fixnapp1.jpg",
-            "/pp_design/app/fixnapp2.jpg",
-            "/pp_design/app/fixnapp3.jpg",
-            "/pp_design/app/fixnapp4.jpg",
-            "/pp_design/app/fixnapp5.jpg",
-            "/pp_design/app/fixnapp6.jpg",
-            "/pp_design/app/fixnapp7.jpg",
-            "/pp_design/app/fixnapp8.jpg",
-            "/pp_design/app/fixnapp9.jpg"
+            "pp_design/app/fixnapp1.jpg",
+            "pp_design/app/fixnapp2.jpg",
+            "pp_design/app/fixnapp3.jpg",
+            "pp_design/app/fixnapp4.jpg",
+            "pp_design/app/fixnapp5.jpg",
+            "pp_design/app/fixnapp6.jpg",
+            "pp_design/app/fixnapp7.jpg",
+            "pp_design/app/fixnapp8.jpg",
+            "pp_design/app/fixnapp9.jpg"
           ],
           "mainPosi": true
         },
         {
-          "imgThumb": "/pp_design/app/kepcp-ktalk.jpg",
+          "imgThumb": "pp_design/app/koreatimes-ktalk_list.jpg",
           "tit": "미주한국일보 K-Talk 앱",
-          "rate": "design 100%",
+          "note": "한인 커뮤니티 K-Talk의 앱서비스 화면. 이미지가 없을때와 이미지비율이 가로와 세로로 각각 더 길 때를 고려하여 리스트를 디자인",
           "img": [
-            "/pp_design/app/kepcp-ktalk.jpg",
-            "/pp_design/app/kepcp-ktalk-intro.jpg"
+            "pp_design/app/koreatimes-ktalk.jpg",
+            "pp_design/app/koreatimes-ktalk-intro.jpg"
           ],
           "mainPosi": true
         },
         {
-          "imgThumb": "/pp_design/app/kepco-app.jpg",
-          "tit": "미주한국일보 통합앱",
-          "rate": "design 100%",
+          "imgThumb": "pp_design/app/koreatimes-app_list.jpg",
+          "tit": "미주한국일보 통합앱 메인",
+          "note": "한국일보의 녹색을 그라운드로 하여 미국생활에 필요한 서비스를 한 곳에 모은 편리함을 청량한 하늘과 연결한 이미지. 한국일보의 오래된 느낌과는 반대로 발랄한 분위기를 주려고 둥근 형태와 아기자기한 일러스트를 사용",
           "img": [
-            "/pp_design/app/kepco-app.jpg.jpg"
+            "pp_design/app/koreatimes-app.jpg"
           ],
           "mainPosi": true
         },
         {
-          "imgThumb": "/pp_design/app/gooroom1.jpg",
+          "imgThumb": "pp_design/app/gooroom_list.jpg",
           "tit": "Gooroom - 호텔예약앱(개인연습시안)",
-          "rate": "design 100%",
+          "note": "여행에 관심이 많았던 시기에 구상했던 서비스이름과 작업한 디자인. 기본 인트로화면, 로그인, 리스트, 예약페이지샘플화면을 디자인함",
           "img": [
-            "/pp_design/app/gooroom1.jpg",
-            "/pp_design/app/gooroom2.jpg",
-            "/pp_design/app/gooroom3.jpg",
-            "/pp_design/app/gooroom4.jpg",
-            "/pp_design/app/gooroom5.jpg"
+            "pp_design/app/gooroom1.jpg",
+            "pp_design/app/gooroom2.jpg",
+            "pp_design/app/gooroom3.jpg",
+            "pp_design/app/gooroom4.jpg",
+            "pp_design/app/gooroom5.jpg"
           ],
           "mainPosi": true
         },
         {
-          "imgThumb": "/pp_design/app/mday1.jpg",
+          "imgThumb": "pp_design/app/mday_list.jpg",
           "tit": "Mday - 쇼핑몰앱(개인연습시안)",
-          "rate": "design 100%",
+          "note": "쇼핑몰 메인, 리스트, 상세화면을 디자인해봄",
           "img": [
-            "/pp_design/app/mday1.jpg",
-            "/pp_design/app/mday2.jpg",
-            "/pp_design/app/mday3.jpg",
-            "/pp_design/app/mday4.jpg"
+            "pp_design/app/mday1.jpg",
+            "pp_design/app/mday2.jpg",
+            "pp_design/app/mday3.jpg",
+            "pp_design/app/mday4.jpg"
           ],
           "mainPosi": true
         }
@@ -344,30 +306,65 @@
     "typeTxt" : "유지보수 관리대상 작업배너들",
     "typeNm" : "banner",
     "typeList" : [
-      {"imgThumb" : "/pp_design/banner/koreatimes1.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes2.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes3.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes4.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes5.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes6.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes7.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes8.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes9.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes10.png", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes11.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes12.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes13.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes14.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes15.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con1.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con2.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con3.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con4.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con5.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con6.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con7.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con8.jpg", "tit" : "FIXNAP"},
-      {"imgThumb" : "/pp_design/banner/koreatimes-app-con9.jpg", "tit" : "FIXNAP"}
+      {
+        "imgThumb": "pp_design/banner/koreatimes6.jpg",
+        "tit": "미주 한국일보 외부홍보 배너",
+        "note": "한국일보 국문/영문 외부소개관련 배너들",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/banner/koreatimes6.jpg",
+          "pp_design/banner/koreatimes7.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_design/banner/koreatimes1.jpg",
+        "tit": "미주 한국일보 서비스안내 관련 배너들",
+        "note": "한국일보 연중기획사업안내, 금주의 마켓세일, 영문 Koreatims, 한국일보 SNS홍보, 특별섹션, 칼리지엑스포 등",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/banner/koreatimes1.jpg",
+          "pp_design/banner/koreatimes2.jpg",
+          "pp_design/banner/koreatimes3.jpg",
+          "pp_design/banner/koreatimes17.jpg",
+          "pp_design/banner/koreatimes4.jpg",
+          "pp_design/banner/koreatimes8.jpg",
+          "pp_design/banner/koreatimes13.jpg",
+          "pp_design/banner/koreatimes15.jpg"
+        ],
+        "mainPosi": true
+      },
+      {
+        "imgThumb": "pp_design/banner/koreatimes5.jpg",
+        "tit": "미주 한국일보 외부행사,사업 홍보배너들",
+        "note": "골프대회, 골프수업, 수도절약캠페인, LA다저스, 네팔지진 기금모금, 2014아시안게임 등",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/banner/koreatimes5.jpg",
+          "pp_design/banner/koreatimes9.jpg",
+          "pp_design/banner/koreatimes10.png",
+          "pp_design/banner/koreatimes11.jpg",
+          "pp_design/banner/koreatimes12.jpg",
+          "pp_design/banner/koreatimes14.jpg",
+          "pp_design/banner/koreatimes16.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_design/banner/koreatimes-app-con1.jpg",
+        "tit": "미주 한국일보 통합앱 쿠폰제공업체 소개배너들",
+        "note": "쿠폰을 제공하는 제휴음식점 배너",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/banner/koreatimes-app-con1.jpg",
+          "pp_design/banner/koreatimes-app-con2.jpg",
+          "pp_design/banner/koreatimes-app-con3.jpg",
+          "pp_design/banner/koreatimes-app-con4.jpg",
+          "pp_design/banner/koreatimes-app-con5.jpg",
+          "pp_design/banner/koreatimes-app-con6.jpg",
+          "pp_design/banner/koreatimes-app-con7.jpg",
+          "pp_design/banner/koreatimes-app-con8.jpg",
+          "pp_design/banner/koreatimes-app-con9.jpg"
+        ]
+      }
     ]
   },
    "icon" : {
@@ -375,9 +372,34 @@
     "typeTxt" : "앱 관련 아이콘",
     "typeNm" : "icon",
     "typeList" : [
-        {"imgThumb" : "/pp_design/icon/fixnap.png", "tit" : "FIXNAP -차수리신청앱 아이콘"},
-        {"imgThumb" : "/pp_design/icon/koreatimes-app-con.png", "tit" : "미주한국일보 통합앱 컨텐츠별 아이콘"},
-        {"imgThumb" : "/pp_design/icon/Ktalk.png", "tit" : "K-Talk - 미주 한국일보"}
+      {
+        "imgThumb": "pp_design/icon/fixnap.png",
+        "tit": "FIXNAP -차수리신청앱 아이콘",
+        "note": "Fix의 이미지가 떠오르도록 너트를 활용한 아이콘 디자인",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/icon/fixnap.png"
+        ]
+      },
+      {
+        "imgThumb": "pp_design/icon/koreatimes-app-con.png",
+        "tit": "미주 한국일보 통합앱 컨텐츠별 아이콘",
+        "note": "통합앱에서 제공하는 서비스컨텐츠별 아이콘. 기존 웹서비스이미지와 컨텐츠적 느낌을 살리고자 하였음",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/icon/koreatimes-app-con.png"
+        ],
+        "mainPosi": true
+      },
+      {
+        "imgThumb": "pp_design/icon/Ktalk.png",
+        "tit": "K-Talk - 미주 한국일보",
+        "note": "한인 커뮤니티 신규서비스를 위한 아이콘. 실제 사용중인 아이콘과 제안했던 아이콘 모음",
+        "rate": "design 100%",
+        "img": [
+          "pp_design/icon/Ktalk.png"
+        ]
+      }
     ]
   }
 }

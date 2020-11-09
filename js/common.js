@@ -1,7 +1,6 @@
 /*
  * Create by Sinae Yu :
  * https://github.com/anneSinae/portfolio2019.git
- * https://fe-flower.tistory.com/
  */
 
 $(document).ready(function() {
@@ -21,6 +20,7 @@ $(document).ready(function() {
 	]);
 });
 
+
 /* 메뉴바영역 상단고정 : fix header on top */
 function fixHeaderTop() {
 	var target = "#header";
@@ -39,12 +39,14 @@ function fixHeaderTop() {
 	}
 }
 
+
 /* 비쥬얼 shape path 로딩 : load visual svg shape animation path */
 function loadVisualShapePath() {
 	$.getJSON("js/visual_svgPath.json", function(path) {
 		$(".svgAni path animate").attr("values", path.svg_aniPath.join(";"));
     });
 }
+
 
 /* 비쥬얼영역 날씨정보 : visual area weather information */
 function visualWeatherInfo() {
@@ -67,16 +69,14 @@ function visualWeatherInfo() {
 	}
 }
 
+
 /* 메뉴활성화화면 세팅 : set active for hidden contents */
 function showContent(target, info) {
 	$(target).on("click", function(e) {
 		console.log("showContent click");
 		e.preventDefault();
-		//var focusTarget = $(this).attr("href");
 		var activeTxt = $(this).get(0).className.split("btn_")[1];
 		var $typeInfoTargt =$(this).parents(".type");
-		console.log("click", $(this).index(), $typeInfoTargt.attr("class"), $typeInfoTargt.length);
-		//$(focusTarget).focus();
 		chkOtherAction(activeTxt, 
 			!!$typeInfoTargt.length && {
 				"type" : $(this).parents(".type").attr("class").split(" ")[1], 
@@ -84,7 +84,9 @@ function showContent(target, info) {
 			}
 		);
 		$("body").addClass("active_" + activeTxt);
+		if($(this).attr("class") !== "btn_nav") $("body").removeClass("active_nav");
 	});
+
 	console.log("showContent");
 	closeCurrentDiv();
 	goIndex();
@@ -112,9 +114,9 @@ function showContent(target, info) {
 	}
 }
 
+
 /* 현재컨텐츠 닫기 : close current div layer */
 function closeCurrentDiv() {
-	
 	console.log("closeCurrentDiv");
 	$(".btn_close").on("click", function(e) {
 		
@@ -124,6 +126,7 @@ function closeCurrentDiv() {
 	});
 }
 
+
 /* 처음화면 가기(스크롤 top이동) : go index and scroll top */
 function goIndex() {
 	$(".go_index").on("click", function(e) {
@@ -132,6 +135,7 @@ function goIndex() {
 		e.preventDefault();
 	});
 }
+
 
 /* 스크롤시 컨텐츠 등장 애니메이션 : animation for coming out when scrolling */
 function scrollAnimate(arguments) {
@@ -163,6 +167,7 @@ function scrollAnimate(arguments) {
 		return $(window).width() > (!!data.useW ? data.useW : 0);
 	}
 }
+
 
 /* 포트폴리오 컨텐츠(퍼블리싱, 디자인) Json로딩 : load Json portfolio contents(publishing, design) */
 function loadPortfolio(target, info) {
@@ -197,9 +202,7 @@ function loadPortfolio(target, info) {
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
 			var unit = ".type";
 			var $sample = $(target).find(unit).first();
-			console.log("퍼블요청");
 			$.each(data, function(key, type) {
-				console.log(data);
 				var $type = $sample.clone().find("ul").empty().parent(unit);
 				var $currType = $(target).append($type).find(unit).last();
 				$currType.addClass(key);
@@ -213,13 +216,15 @@ function loadPortfolio(target, info) {
 					});
 					$currLi.find(".info dt").text(list.tit);
 					$currLi.find(".info .info_detail").text(list.note);
-					ppType === "publishing" && $currLi.find(".info .info_url").text(list.url);
+					if(ppType === "publishing") {
+						$currLi.find(".info .info_url a").text(list.url).attr("href", list.url);
+					}
+					ppType === "design" && $currLi.addClass("btn_detailDesign").attr("data-num", $currLi.index());
 					if(!!list.imgSubThumb) {
 						list.imgSubThumb.forEach(function(imgSub) {
 							$("<img>").appendTo($currLi.find(".info .sub")).attr("src", "images/" + imgSub).attr("alt", list.tit + " image");
 						});
 					} else $currLi.find(".info .sub").remove();
-					$currLi.addClass("btn_detailDesign").attr("data-num", $currLi.index());
 				});
 				var arrKeys = Object.keys(data);
 				if(key === arrKeys[arrKeys.length-1]) $sample.remove();
@@ -230,20 +235,26 @@ function loadPortfolio(target, info) {
 	}
 	function randerPPDetailDesign(target, ppType, info) {
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
+			console.log(target, info, info.type, Object.values(data[info.type].typeList));
 			var currData = Object.values(data[info.type].typeList)[info.num];
+			console.log(currData, "currData")
 			$(target).find("dt").text("").text(currData.tit);
 			$(target).find(".summary").text("").text(currData.summary);
 			$(target).find(".rate").text("").text(currData.rate);
 			$(target).find(".siteUrl a").attr("href", "").attr("href", currData.url).text("").text(currData.url);
 			$(target).find(".txt").text("").text(currData.note);
 			$(target).find(".imgBox").empty();
-			currData.img.forEach(function(img) {
-				$(target).find(".imgBox").append("<img src='images/" + img + "' alt='" + currData.tit + "' image'>");
-			});
+			console.log(!!currData.img);
+			if(!!currData.img) {
+				currData.img.forEach(function(img) {
+					$(target).find(".imgBox").append("<img src='images/" + img + "' alt='" + currData.tit + "' image'>");
+				});
+			}
 		});
 		console.log("randerPPDetailDesign");
 	}
 }
+
 
 /* 벽돌형식 포지셔닝 : align to masonry type */
 function setMasonry(target) {
@@ -273,6 +284,7 @@ function setMasonry(target) {
 	}
 }
 
+
 /* 특정 브라우저, 모바일기기 구분 : set mobile specific browser */
 function setMobileBrowser() {
 	$("#wrap").addClass(chkMobile());
@@ -281,6 +293,7 @@ function setMobileBrowser() {
 	if(chkSamsung === "Samsung") $("#wrap").addClass(chkSamsung);
 	if(chkMSie === "MSie") $("#wrap").addClass(chkMSie);
 }
+
 
 /* wrap태그 높이 윈도우 크기로 세팅 : set #wrap height to window height */
 function setWrapH(stat) {
@@ -294,6 +307,7 @@ function setWrapH(stat) {
 		$(window).off("resize");
 	}
 }
+
 
 /* 컨텐츠요소 width와 동일 height로 세팅 : set squere by height with object width value */
 function setSquare(target) {
