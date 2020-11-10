@@ -1,0 +1,116 @@
+{
+    "edd" : {
+    "typeTit": "인쇄물 디자인",
+    "typeTxt" : "전단지, 리플렛 등 편집디자인 작업물",
+    "typeNm" : "edd",
+    "typeList" : [
+      {
+        "imgThumb": "pp_others/edd/ivf_list.jpg",
+        "tit": "기독교단체 IVF선교모임 안내지",
+        "note": "모임별 주제에 맞는 느낌을 살려 디자인작업",
+        "img": [
+          "pp_others/edd/ivf.jpg",
+          "pp_others/edd/ivf2.jpg",
+          "pp_others/edd/ivf3.jpg",
+          "pp_others/edd/ivf4.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/culgift_list.jpg",
+        "tit": "컬처랜드 문화상품권(연습시안)",
+        "note": "문화상품권의 디테일한 느낌을 연습해보려고 내 스타일의 디자인으로 따로 작업해본 디자인",
+        "img": [
+          "pp_others/edd/culgift.jpg",
+          "pp_others/edd/culgift2.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/gyeolsung-belt_list.jpg",
+        "tit": "결성보신원 상자 띠지",
+        "note": "정성이 담긴 단아한 느낌의 타이포를 이용하여 디자인",
+        "img": [
+          "pp_others/edd/gyeolsung-belt.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/gyeolsung_list.jpg",
+        "tit": "결성보신원 전단지들",
+        "note": "건강즙별 안내 및 홍보전단지",
+        "img": [
+          "pp_others/edd/gyeolsung.jpg",
+          "pp_others/edd/gyeolsung2.jpg",
+          "pp_others/edd/gyeolsung3.jpg",
+          "pp_others/edd/gyeolsung4.jpg",
+          "pp_others/edd/gyeolsung5.jpg",
+          "pp_others/edd/gyeolsung6.jpg",
+          "pp_others/edd/gyeolsung8.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/sungkyul_list.jpg",
+        "tit": "성결대 선교단체 소개 리플렛",
+        "note": "입학생대상 학교내 선교단체를 안내해주는 리플렛. 입학시기인 봄의 느낌과 새내기의 컬러 병아리색을 사용하여 디자인",
+        "img": [
+          "pp_others/edd/sungkyul.jpg",
+          "pp_others/edd/sungkyul2.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/comgift_list.jpg",
+        "tit": "데이터다운로드 쿠폰(연습시안)",
+        "note": "한창 자료다운사이트가 유행할때 여기저기서 보내주던 쿠폰들을 보고 개인적으로 따로 디자인해봄",
+        "img": [
+          "pp_others/edd/comgift.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/kmchurch_list.jpg",
+        "tit": "찾는이광명교회 특별강연회 포스터",
+        "img": [
+          "pp_others/edd/kmchurch.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/dgunion_list.jpg",
+        "tit": "단국대 선교단체 소개 리플렛",
+        "note": "입학생대상 학교내 선교단체를 안내해주는 리플렛. 단체별 모임사진을 포인트로 하여 디자인",
+        "img": [
+          "pp_others/edd/dgunion.jpg",
+          "pp_others/edd/dgunion2.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/edd/gec_list.jpg",
+        "tit": "과외안내 전단지",
+        "note": "미국에서 소개받은 한인분이 요청해서 아르바이트로 작업했던 강의안내 전단지",
+        "img": [
+          "pp_others/edd/gec.jpg"
+        ]
+      }
+    ]
+  },
+   "etc" : {
+    "typeTit": "기타 디자인",
+    "typeTxt" : "다양한 종류의 디자인",
+    "typeNm" : "etc",
+    "typeList" : [
+      {
+        "imgThumb": "pp_others/etc/gyeolsung-logo_list.jpg",
+        "tit": "결성보신원 로고",
+        "note": "보신원의 이미지와 어울리는 붓으로 쓴듯한 캘리그래피와 약탕기 등을 활용하여 디자인",
+        "img": [
+          "pp_others/etc/gyeolsung-logo.jpg"
+        ]
+      },
+      {
+        "imgThumb": "pp_others/etc/koreatimes-showme_list.jpg",
+        "tit": "미주 한국일보 쇼미더맛집 타이틀 시안",
+        "note": "랩배틀 프로그램인 쇼미더머니에서 따온 행사타이틀 느낌에 쇼미더맛집 타이포를 랩 또는 경연대회의 화려한 느낌으로 작업해봄",
+        "img": [
+          "pp_others/etc/koreatimes-showme.jpg",
+          "pp_others/etc/koreatimes-showme2.jpg"
+        ]
+      }
+    ]
+  }
+}

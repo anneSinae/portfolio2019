@@ -1,7 +1,7 @@
 {
     "web" : {
     "typeTit": "웹사이트 구축",
-    "typeTxt" : "PC, 모바일(반응형포함) 메인/서브",
+    "typeTxt" : "PC, 모바일(반응형포함) 메인/서브, 홍보페이지 등",
     "typeNm" : "web",
     "typeList" : [
         {
@@ -338,7 +338,7 @@
         "img": [
           "pp_design/banner/koreatimes5.jpg",
           "pp_design/banner/koreatimes9.jpg",
-          "pp_design/banner/koreatimes10.png",
+          "pp_design/banner/koreatimes10.jpg",
           "pp_design/banner/koreatimes11.jpg",
           "pp_design/banner/koreatimes12.jpg",
           "pp_design/banner/koreatimes14.jpg",
@@ -369,28 +369,28 @@
     "typeNm" : "icon",
     "typeList" : [
       {
-        "imgThumb": "pp_design/icon/fixnap.png",
+        "imgThumb": "pp_design/icon/fixnap.jpg",
         "tit": "FIXNAP -차수리신청앱 아이콘",
         "note": "Fix의 이미지가 떠오르도록 너트를 활용한 아이콘 디자인",
         "img": [
-          "pp_design/icon/fixnap.png"
+          "pp_design/icon/fixnap.jpg"
         ]
       },
       {
-        "imgThumb": "pp_design/icon/koreatimes-app-con.png",
+        "imgThumb": "pp_design/icon/koreatimes-app-con.jpg",
         "tit": "미주 한국일보 통합앱 컨텐츠별 아이콘",
         "note": "통합앱에서 제공하는 서비스컨텐츠별 아이콘. 기존 웹서비스이미지와 컨텐츠적 느낌을 살리고자 하였음",
         "img": [
-          "pp_design/icon/koreatimes-app-con.png"
+          "pp_design/icon/koreatimes-app-con.jpg"
         ],
         "mainPosi": true
       },
       {
-        "imgThumb": "pp_design/icon/Ktalk.png",
+        "imgThumb": "pp_design/icon/Ktalk.jpg",
         "tit": "K-Talk - 미주 한국일보",
         "note": "한인 커뮤니티 신규서비스를 위한 아이콘. 실제 사용중인 아이콘과 제안했던 아이콘 모음",
         "img": [
-          "pp_design/icon/Ktalk.png"
+          "pp_design/icon/Ktalk.jpg"
         ]
       }
     ]

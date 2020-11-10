@@ -19,6 +19,7 @@ $(document).ready(function() {
 		{target : ".con.design .descript", scrollTopBegin : 1050, speed : 700, delay : 100, aniFrom : {top:"30px"}, aniTo : {top:0}}
 	]);
 	// 메인 publishing 종류 클릭시 해당위치로 스크롤 기능 필요
+	// 포트폴리오 화면배치 리사이즈시 오류 수정필요
 });
 
 
@@ -77,6 +78,7 @@ function showContent(target, info) {
 		e.preventDefault();
 		var activeTxt = $(this).get(0).className.split("btn_")[1];
 		var $typeInfoTargt =$(this).parents(".type");
+		console.log($(this).attr("class"), $typeInfoTargt.length, "typeInfoTargt leng this------------");
 		chkOtherAction(activeTxt, 
 			!!$typeInfoTargt.length && {
 				"type" : $(this).parents(".type").attr("class").split(" ")[1], 
@@ -90,7 +92,8 @@ function showContent(target, info) {
 	closeCurrentDiv();
 	goIndex();
 	function chkOtherAction(activeTxt, info) {
-		if(activeTxt === "publishing" || activeTxt === "design") {
+		console.log("sssssss", activeTxt);
+		if(activeTxt === "publishing" || activeTxt === "design" || activeTxt === "others") {
 			loadPortfolio(".list." + activeTxt);
 			$("body, html").scrollTop(0);
 			setWrapH(true);
@@ -98,6 +101,7 @@ function showContent(target, info) {
 			return;
 		};
 		if(activeTxt === "detailDesign") {
+			console.log("------------------load De");
 			loadPortfolio(".detail.design", info);
 			$("html").css("overflow-y", "hidden");
 			$(".detail.design .btn_close").on("click", function() {
@@ -105,8 +109,13 @@ function showContent(target, info) {
 			});
 			return;
 		}
-		if(activeTxt === "others") {
-			alert("기타 다른 작업물 준비중입니다.");
+		if(activeTxt === "detailOthers") {
+			console.log("------------------load O");
+			loadPortfolio(".detail.others", info);
+			$("html").css("overflow-y", "hidden");
+			$(".detail.others .btn_close").on("click", function() {
+				$("html").css("overflow-y", "scroll");
+			});
 			return;
 		}
 	}
@@ -166,11 +175,14 @@ function scrollAnimate(arguments) {
 
 /* 포트폴리오 컨텐츠(퍼블리싱, 디자인) Json로딩 : load Json portfolio contents(publishing, design) */
 function loadPortfolio(target, info) {
+	console.log(target, "target", info);
 	switch(target) {
 		case ".con.design" : randerMainCon(target, "design"); break;
 		case ".list.publishing" : randerPPList(target, "publishing"); break;
 		case ".list.design" : randerPPList(target, "design"); break;
-		case ".detail.design" : randerPPDetailDesign(target, "design", info); break;
+		case ".list.others" : randerPPList(target, "others"); break;
+		case ".detail.design" : randerPPDetail(target, "design", info); break;
+		case ".detail.others" : randerPPDetail(target, "others", info); break;
 		default : alert("로딩을 위한 데이터정보가 없습니다.");
 	}
 	function randerMainCon(target, ppType) {
@@ -214,6 +226,7 @@ function loadPortfolio(target, info) {
 						$currLi.find(".info .info_url a").text(list.url).attr("href", list.url);
 					}
 					ppType === "design" && $currLi.addClass("btn_detailDesign").attr("data-num", $currLi.index());
+					ppType === "others" && $currLi.addClass("btn_detailOthers").attr("data-num", $currLi.index());
 					if(!!list.imgSubThumb) {
 						list.imgSubThumb.forEach(function(imgSub) {
 							$("<img>").appendTo($currLi.find(".info .sub")).attr("src", "images/" + imgSub).attr("alt", list.tit + " image");
@@ -221,17 +234,17 @@ function loadPortfolio(target, info) {
 					} else $currLi.find(".info .sub").remove();
 				});
 				var arrKeys = Object.keys(data);
-				if(key === arrKeys[arrKeys.length-1]) $sample.remove();
+				if(key === arrKeys[arrKeys.length-1]) $sample.hide();
 			});
-			showContent("ul li.btn_detailDesign");
+			showContent("ul li.btn_detailDesign, ul li.btn_detailOthers");
 		});
 	}
-	function randerPPDetailDesign(target, ppType, info) {
+	function randerPPDetail(target, ppType, info) {
+		console.log(target, ppType, info, "randerPPDetail");
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
 			var currData = Object.values(data[info.type].typeList)[info.num];
+			console.log(currData, "dataaaaaaa");
 			$(target).find("dt").text("").text(currData.tit);
-			$(target).find(".summary").text("").text(currData.summary);
-			$(target).find(".rate").text("").text(currData.rate);
 			$(target).find(".siteUrl a").attr("href", "").attr("href", currData.url).text("").text(currData.url);
 			$(target).find(".txt").text("").text(currData.note);
 			$(target).find(".imgBox").empty();
