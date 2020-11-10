@@ -18,7 +18,11 @@ $(document).ready(function() {
 		{target : ".con.publishing .descript", scrollTopBegin : 0, speed : 700, delay : 100, aniFrom : {top:"30px"}, aniTo : {top:0}},
 		{target : ".con.design .descript", scrollTopBegin : 1050, speed : 700, delay : 100, aniFrom : {top:"30px"}, aniTo : {top:0}}
 	]);
-	// 메인 publishing 종류 클릭시 해당위치로 스크롤 기능 필요
+
+	/* 메인에서 퍼블리싱종류 클릭시 해당위치로 스크롤이동위한 세팅 */
+	$(".con.publishing .works a").on("click", function() {
+		$(this).addClass("active");
+	})
 });
 
 
@@ -164,6 +168,7 @@ function scrollAnimate(arguments) {
 }
 
 
+
 /* 포트폴리오 컨텐츠(퍼블리싱, 디자인) Json로딩 : load Json portfolio contents(publishing, design) */
 function loadPortfolio(target, info) {
 	switch(target) {
@@ -224,6 +229,15 @@ function loadPortfolio(target, info) {
 				if(key === arrKeys[arrKeys.length-1]) $sample.remove();
 			});
 			showContent("ul li.btn_detailDesign");
+
+			/* 메인에서 퍼블리싱종류 클릭시 해당위치로 스크롤이동 */
+			if(ppType === "publishing") {
+				var activeTarget = ".con.publishing .works a.active";
+				var mainClickTxt = $(activeTarget).attr("class").split(" ")[1];
+				console.log(mainClickTxt);
+				$("html, body").animate({scrollTop: $(".list.publishing ." + mainClickTxt).offset().top}, 100);
+				$(activeTarget).removeClass("active");
+			}
 		});
 	}
 	function randerPPDetailDesign(target, ppType, info) {

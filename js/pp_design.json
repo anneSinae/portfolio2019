@@ -34,7 +34,7 @@
         {
           "imgThumb": "pp_design/web/daeheung_list.jpg",
           "tit": "대흥산업",
-          "note": "메인시안",
+          "note": "메인 제안용 시안",
           "img": [
             "pp_design/web/daeheung1.jpg",
             "pp_design/web/daeheung2.jpg"
@@ -51,7 +51,7 @@
         {
           "imgThumb": "pp_design/web/jobkoreaUSA_list.jpg",
           "tit": "Jobkorea USA 홍보",
-          "note": "기업대상 상품안내페이지. 작업당시 상품목록자료만 있고 화면기획이 없어 상품별로 어떤 특성이 있는지 직접 알아보며 적절한 문구와 내용, 이미지를 구성하느라 힘들었던 디자인",
+          "note": "기업대상 상품안내페이지. 작업당시 참고문서는 상품목록만 있고 자세한 내용기획이 없어 상품별로 어떤 특성이 있는지 직접 알아보며 필요한 문구와 내용, 이미지를 직접 구성하느라 고생했던 디자인(국문/영문/중문 작업)",
           "url": "https://jobkoreausa.com/work/services.html",
           "img": [
             "pp_design/web/jobkoreaUSA.jpg"
@@ -100,7 +100,7 @@
           "imgThumb": "pp_design/web/kakaobot_list.jpg",
           "tit": "카카오 채팅봇(개인협력 프로젝트)",
           "note": "개인협업프로젝트 - 카카오톡 오픈챗 운영시 대화관리 및 신규member에게 자동인사하는 메시지관리 사이트(반응형)",
-          "url": "http://www.koreatimes.com/",
+          "url": "http://annesinae.cafe24.com/kakaobot",
           "img": [
             "pp_design/web/kakaobot1.jpg",
             "pp_design/web/kakaobot2.jpg",
@@ -310,7 +310,6 @@
         "imgThumb": "pp_design/banner/koreatimes6.jpg",
         "tit": "미주 한국일보 외부홍보 배너",
         "note": "한국일보 국문/영문 외부소개관련 배너들",
-        "rate": "design 100%",
         "img": [
           "pp_design/banner/koreatimes6.jpg",
           "pp_design/banner/koreatimes7.jpg"
@@ -320,7 +319,6 @@
         "imgThumb": "pp_design/banner/koreatimes1.jpg",
         "tit": "미주 한국일보 서비스안내 관련 배너들",
         "note": "한국일보 연중기획사업안내, 금주의 마켓세일, 영문 Koreatims, 한국일보 SNS홍보, 특별섹션, 칼리지엑스포 등",
-        "rate": "design 100%",
         "img": [
           "pp_design/banner/koreatimes1.jpg",
           "pp_design/banner/koreatimes2.jpg",
@@ -337,7 +335,6 @@
         "imgThumb": "pp_design/banner/koreatimes5.jpg",
         "tit": "미주 한국일보 외부행사,사업 홍보배너들",
         "note": "골프대회, 골프수업, 수도절약캠페인, LA다저스, 네팔지진 기금모금, 2014아시안게임 등",
-        "rate": "design 100%",
         "img": [
           "pp_design/banner/koreatimes5.jpg",
           "pp_design/banner/koreatimes9.jpg",
@@ -352,7 +349,6 @@
         "imgThumb": "pp_design/banner/koreatimes-app-con1.jpg",
         "tit": "미주 한국일보 통합앱 쿠폰제공업체 소개배너들",
         "note": "쿠폰을 제공하는 제휴음식점 배너",
-        "rate": "design 100%",
         "img": [
           "pp_design/banner/koreatimes-app-con1.jpg",
           "pp_design/banner/koreatimes-app-con2.jpg",
@@ -376,7 +372,6 @@
         "imgThumb": "pp_design/icon/fixnap.png",
         "tit": "FIXNAP -차수리신청앱 아이콘",
         "note": "Fix의 이미지가 떠오르도록 너트를 활용한 아이콘 디자인",
-        "rate": "design 100%",
         "img": [
           "pp_design/icon/fixnap.png"
         ]
@@ -385,7 +380,6 @@
         "imgThumb": "pp_design/icon/koreatimes-app-con.png",
         "tit": "미주 한국일보 통합앱 컨텐츠별 아이콘",
         "note": "통합앱에서 제공하는 서비스컨텐츠별 아이콘. 기존 웹서비스이미지와 컨텐츠적 느낌을 살리고자 하였음",
-        "rate": "design 100%",
         "img": [
           "pp_design/icon/koreatimes-app-con.png"
         ],
@@ -395,7 +389,6 @@
         "imgThumb": "pp_design/icon/Ktalk.png",
         "tit": "K-Talk - 미주 한국일보",
         "note": "한인 커뮤니티 신규서비스를 위한 아이콘. 실제 사용중인 아이콘과 제안했던 아이콘 모음",
-        "rate": "design 100%",
         "img": [
           "pp_design/icon/Ktalk.png"
         ]
