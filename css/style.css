@@ -225,7 +225,8 @@ body {color:#666; word-break:keep-all; overflow-x:hidden;}
 .detail .imgBox {width:90%; margin:-80px auto 0; text-align:center;}
 .detail .imgBox img {max-width:100%; height:auto; margin:5px; box-shadow:1px 1px 7px rgba(0,0,0,0.05); vertical-align:top;}
 .detail .imgBox img:first-child {margin-top:0;}
-.detail .btn_close {position:fixed; right:17px; background-color:#101010; border-radius:100px;}
+.detail .btn_close {position:fixed; background-color:rgba(15,15,15,0.7); border-radius:100px;}
+.PC~.detail .btn_close {right:calc(17px + 0.5rem);}
 .active_publishing .list.publishing, .active_design .list.design, .active_others .list.others, .active_detailDesign .detail.design, .active_detailOthers .detail.others {display:block;}
 @media screen and (min-width: 480px) {
 	.con.design .works li {width:33.3%;}
@@ -348,5 +349,6 @@ body {color:#666; word-break:keep-all; overflow-x:hidden;}
 /*************************************************
                                      common
 *************************************************/
-.btn_close {position:absolute; top:0; right:0; display:block; width:4.2rem; height:4.2rem; background:url(../images/btn_close_white.svg) no-repeat center center/auto 40%; font-size:0; color:transparent; cursor:pointer; transition: all 0.3s ease .05s;}
-.btn_close:hover {transform: rotate(180deg);}
+.btn_close {position:absolute; top:0.5rem; right:0.5rem; display:block; width:3.8rem; height:3.8rem; font-size:0; color:transparent; cursor:pointer;}
+.btn_close:before {content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:url(../images/btn_close_white.svg) no-repeat center center/auto 40%; transition: all 0.3s ease .05s;}
+.btn_close:hover:before {transform: rotate(180deg);}
