@@ -7,7 +7,7 @@ $(document).ready(function() {
 	fixHeaderTop();
 	visualWeatherInfo();
 	loadVisualShapePath();
-	showContent(".btn_nav, .btn_message, .btn_aboutme, .btn_publishing, .btn_design, .btn_others");
+	showContent(".btn_nav, .btn_aboutme, .btn_publishing, .btn_design, .btn_others");
 	setMobileBrowser();
 	loadPortfolio(".con.design");
 	scrollAnimate([
