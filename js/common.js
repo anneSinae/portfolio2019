@@ -138,7 +138,7 @@ function goIndex() {
 
 /* 스크롤시 컨텐츠 등장 애니메이션 : animation for coming out when scrolling */
 function scrollAnimate(arguments) {
-	$.each(arguments, function(index, data) {
+	arguments.forEach(function(data, idx) {
 		data.aniFrom["opacity"] = 0;
 		data.aniTo["opacity"] = 1;
 		var scrollState = 0;
@@ -161,7 +161,7 @@ function scrollAnimate(arguments) {
 				}
 			});
 		}
-	});
+	})
 	function chkWinOk(data) {
 		return $(window).width() > (!!data.useW ? data.useW : 0);
 	}
@@ -182,9 +182,10 @@ function loadPortfolio(target, info) {
 	function randerMainCon(target, ppType) {
 		var $listUl = $("<ul>").insertAfter($(target).find(".works .tit_sub"));
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
-			$.each(data, function(key, type) {
+			for(var key in data) {
+				var type = data[key];
 				var formLi = "<li class='type'><a href='#' title='' class='btn_detailDesign'><img></a></li>";
-				$.each(type.typeList, function(idx, list) {
+				type.typeList.forEach(function(list,idx){
 					if(!!list.mainPosi) {
 						var $currLi = $listUl.append(formLi).children("li:last-child").addClass(key);
 						$currLi.find("img").attr("src", "images/" + list.imgThumb).attr("alt", list.tit + " image").load(function() {
@@ -193,27 +194,30 @@ function loadPortfolio(target, info) {
 						$currLi.find("a").prop("title", list.tit + " 자세히 보기").attr("data-num", idx);
 					}
 				});
-			});
+			}
 			showContent("li .btn_detailDesign");
 		});
 	}
 	function randerPPList(target, ppType) {
 		var unit = ".type";
 		var $sample = $(target).find(unit).first().show();
+
 		$(target).find(unit).not($sample).remove();
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
-			$.each(data, function(key, type) {
+			for(var key in data) {
+				var type = data[key];
 				var $type = $sample.clone().find("ul").empty().parent(unit);
 				var $currType = $(target).append($type).find(unit).last();
 				$currType.addClass(key);
 				$currType.find(".tit h4").text(type.typeTit);
 				$currType.find(".tit span").text(type.typeTxt);
 				type.typeList.forEach(function(list) {
-					var $currLi = $currType.find("ul").append($sample.find("li").clone().find(".sub").empty().parents("li")).find("li").last();
-					!!list.imgThumb ? $currLi.find(".img img").attr("src", "images/" + list.imgThumb) : $currLi.find(".img").remove();
-					$currLi.find(".img img").load(function() { 
-						setMasonry(target + " ul"); 
-					});
+					var $currLi = $currType.find("ul").append($sample.find("li").clone()).find("li").last();
+					if(!!list.imgThumb) {
+						$currLi.find(".img").append("<img>");
+						$currLi.find(".img img").attr("src", "images/" + list.imgThumb);
+					} else $currLi.find(".img").remove();
+					
 					$currLi.find(".info dt").text(list.tit);
 					$currLi.find(".info .info_detail").text(list.note);
 					if(ppType === "publishing") {
@@ -221,17 +225,22 @@ function loadPortfolio(target, info) {
 					}
 					ppType === "design" && $currLi.addClass("btn_detailDesign").attr("data-num", $currLi.index());
 					ppType === "others" && $currLi.addClass("btn_detailOthers").attr("data-num", $currLi.index());
-					if(!!list.imgSubThumb) {
-						list.imgSubThumb.forEach(function(imgSub) {
-							$("<img>").appendTo($currLi.find(".info .sub")).attr("src", "images/" + imgSub).attr("alt", list.tit + " image");
-						});
-					} else $currLi.find(".info .sub").remove();
+					
 				});
+
 				var arrKeys = Object.keys(data);
 				if(key === arrKeys[arrKeys.length-1]) $sample.hide();
+			//	console.log(type.typeList.length);
+			}
+
+			$(target).find(".type:last-child li:last-child .img img").load(function() {
+				setMasonry(target); 
 			});
-			showContent("ul li.btn_detailDesign, ul li.btn_detailOthers");
+
+			if(ppType === "design" || ppType === "others") showContent("ul li.btn_detailDesign, ul li.btn_detailOthers");
 		});
+		
+		
 	}
 	function randerPPDetail(target, ppType, info) {
 		$.getJSON("js/pp_" + ppType + ".json", function(data) {
@@ -255,7 +264,7 @@ function setMasonry(target) {
 	masonry();
 	$(window).on("resize", function() { masonry(); });
 	function masonry() {
-		$(target).each(function() {
+		$(target + " .type").not(":first").find("ul").each(function() {
 			$(this).children().css("position", "static");
 			var colNum = parseInt($(this).width()/$(this).children().width());
 			var arrLeft = [], arrTop = [];

@@ -382,8 +382,7 @@
         "note": "통합앱에서 제공하는 서비스컨텐츠별 아이콘. 기존 웹서비스이미지와 컨텐츠적 느낌을 살리고자 하였음",
         "img": [
           "pp_design/icon/koreatimes-app-con.jpg"
-        ],
-        "mainPosi": true
+        ]
       },
       {
         "imgThumb": "pp_design/icon/Ktalk.jpg",
