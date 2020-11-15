@@ -21,7 +21,8 @@ $(document).ready(function() {
 	loadPortfolio(".list.publishing");
 	loadPortfolio(".list.design");
 	loadPortfolio(".list.others");
-	// 메인 publishing 종류 클릭시 해당위치로 스크롤 기능 필요
+	moveToPFtype();
+
 });
 
 
@@ -76,6 +77,7 @@ function visualWeatherInfo() {
 
 /* 메뉴활성화화면 세팅 : set active for hidden contents */
 function showContent(target) {
+	console.log("showContent");
 	$(target).on("click", function(e) {
 		var activeTxt = $(this).get(0).className.split("btn_")[1];
 		var $typeInfoTargt =$(this).parents(".type");
@@ -167,6 +169,19 @@ function scrollAnimate(arguments) {
 	function chkWinOk(data) {
 		return $(window).width() > (!!data.useW ? data.useW : 0);
 	}
+}
+
+
+/* 메인화면 퍼블리싱타입 클릭시 해당 리스트로 이동 : move scroll to type list position when click works btns */
+function moveToPFtype() {
+	$(".publishing .works .type").on("click", function(e) {
+		var typeInfo = $(this).attr("class").split(" ")[1];
+		$('.btn_publishing').trigger('click');
+
+		var typeScrollPosi = $(".list.publishing ." + typeInfo).offset().top;
+		$("body, html").animate({scrollTop:typeScrollPosi - 100}, 300);
+		e.preventDefault();
+	})
 }
 
 
