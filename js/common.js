@@ -18,6 +18,9 @@ $(document).ready(function() {
 		{target : ".con.publishing .descript", scrollTopBegin : 0, speed : 700, delay : 100, aniFrom : {top:"30px"}, aniTo : {top:0}},
 		{target : ".con.design .descript", scrollTopBegin : 1050, speed : 700, delay : 100, aniFrom : {top:"30px"}, aniTo : {top:0}}
 	]);
+	loadPortfolio(".list.publishing");
+	loadPortfolio(".list.design");
+	loadPortfolio(".list.others");
 	// 메인 publishing 종류 클릭시 해당위치로 스크롤 기능 필요
 });
 
@@ -72,7 +75,7 @@ function visualWeatherInfo() {
 
 
 /* 메뉴활성화화면 세팅 : set active for hidden contents */
-function showContent(target, info) {
+function showContent(target) {
 	$(target).on("click", function(e) {
 		e.preventDefault();
 		var activeTxt = $(this).get(0).className.split("btn_")[1];
@@ -84,14 +87,13 @@ function showContent(target, info) {
 			}
 		);
 		$("body").addClass("active_" + activeTxt);
+		!$typeInfoTargt.length && setMasonry("." + activeTxt);
 		if($(this).attr("class") !== "btn_nav") $("body").removeClass("active_nav");
 	});
-
 	closeCurrentDiv();
 	goIndex();
 	function chkOtherAction(activeTxt, info) {
 		if(activeTxt === "publishing" || activeTxt === "design" || activeTxt === "others") {
-			loadPortfolio(".list." + activeTxt);
 			$("body, html").scrollTop(0);
 			setWrapH(true);
 			$("body").attr("class", "");
@@ -230,12 +232,7 @@ function loadPortfolio(target, info) {
 
 				var arrKeys = Object.keys(data);
 				if(key === arrKeys[arrKeys.length-1]) $sample.hide();
-			//	console.log(type.typeList.length);
 			}
-
-			$(target).find(".type:last-child li:last-child .img img").load(function() {
-				setMasonry(target); 
-			});
 
 			if(ppType === "design" || ppType === "others") showContent("ul li.btn_detailDesign, ul li.btn_detailOthers");
 		});
