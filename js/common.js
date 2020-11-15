@@ -77,7 +77,6 @@ function visualWeatherInfo() {
 /* 메뉴활성화화면 세팅 : set active for hidden contents */
 function showContent(target) {
 	$(target).on("click", function(e) {
-		e.preventDefault();
 		var activeTxt = $(this).get(0).className.split("btn_")[1];
 		var $typeInfoTargt =$(this).parents(".type");
 		chkOtherAction(activeTxt, 
@@ -89,6 +88,7 @@ function showContent(target) {
 		$("body").addClass("active_" + activeTxt);
 		!$typeInfoTargt.length && setMasonry("." + activeTxt);
 		if($(this).attr("class") !== "btn_nav") $("body").removeClass("active_nav");
+		e.preventDefault();
 	});
 	closeCurrentDiv();
 	goIndex();
@@ -223,18 +223,23 @@ function loadPortfolio(target, info) {
 					$currLi.find(".info dt").text(list.tit);
 					$currLi.find(".info .info_detail").text(list.note);
 					if(ppType === "publishing") {
-						$currLi.find(".info .info_url a").text(list.url).attr("href", list.url);
+						if(!!list.url) {
+							$currLi.children().attr("href", list.url);
+							$currLi.find(".info .info_url").text(list.url);
+						} else {
+							$currLi.children().removeAttr("href").removeAttr("target").attr("title","이동할 페이지 없음");
+							$currLi.find(".info .info_url").remove();
+						}
 					}
-					ppType === "design" && $currLi.addClass("btn_detailDesign").attr("data-num", $currLi.index());
-					ppType === "others" && $currLi.addClass("btn_detailOthers").attr("data-num", $currLi.index());
-					
+					ppType === "design" && $currLi.children().addClass("btn_detailDesign").attr("data-num", $currLi.index());
+					ppType === "others" && $currLi.children().addClass("btn_detailOthers").attr("data-num", $currLi.index());
 				});
 
 				var arrKeys = Object.keys(data);
 				if(key === arrKeys[arrKeys.length-1]) $sample.hide();
 			}
 
-			if(ppType === "design" || ppType === "others") showContent("ul li.btn_detailDesign, ul li.btn_detailOthers");
+			if(ppType === "design" || ppType === "others") showContent("ul .btn_detailDesign, ul .btn_detailOthers");
 		});
 		
 		

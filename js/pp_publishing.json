@@ -1,6 +1,6 @@
 {
   "maintanance": {
-    "typeTit": "유지보수/기능작업",
+    "typeTit": "유지보수 / 기능작업",
     "typeTxt": "추가/변경되는 컨텐츠 구성, 스크립트 변경/에러수정 등",
     "typeNm": "maintanance",
     "typeList": [
@@ -140,7 +140,7 @@
     ]
   },
   "script": {
-    "typeTit": "특정기능 스크립트작업",
+    "typeTit": "특정기능 스크립트 작업",
     "typeTxt": "업무 또는 개인연습용으로 제작한 개인 작업물",
     "typeNm": "script",
     "typeList": [

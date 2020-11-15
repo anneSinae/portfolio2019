@@ -193,7 +193,7 @@ body {color:#666; word-break:keep-all; overflow-x:hidden;}
 .con.design .works li img {max-width:100%; height:auto; min-height:100%;}
 .con.design .works li:hover img {opacity:0.5; transform:scale(1.3);}
 .con.design .works .more {display:block; width:4.5rem; height:4.5rem; margin:2.2rem auto 0 auto; border-radius:5rem; box-shadow:1px 1px 3px rgba(0,0,0,0.3); line-height:4.8rem; text-align:center; font-family:"buriB"; color:#222; font-size:1.15rem;}
-.list {display:none; position:absolute; top:0; left:0; width:100%; padding:80px 20px; background:#fff; z-index:3;}
+.list {display:none; position:absolute; top:0; left:0; width:100%; padding:80px 20px; background:#fff; z-index:3; outline:none;}
 .list h3, .list h3 span, .list .type .tit i {font-family:"cute"; letter-spacing:1px; text-transform:uppercase; line-height:100%;}
 .list h3 {color:#222; font-size:2.6rem; font-weight:bold; line-height:80%;}
 .list h3 span {display:block; color:#cfcfcf; font-size:1.35rem;}
@@ -205,14 +205,16 @@ body {color:#666; word-break:keep-all; overflow-x:hidden;}
 .list .type ul:after {content:' '; display:block; clear:both;}
 .list .type li {position:relative; float:left; width:48%; margin-bottom:10px; padding-bottom:35px; border-bottom:1px dashed #ddd; transition:none;}
 .list .type li:nth-child(2n) {float:right;}
+.list .type li > a {display:block;}
 .list .type li .img {display:block; border:1px solid #f1f1f1; background:url(../images/loading.gif) no-repeat center center/15% auto; box-shadow:1px 1px 7px rgba(0,0,0,0.05); line-height:100%; overflow:hidden; font-size:0; text-align:center; transition:border 0.5s, opacity 0.5s;}
 .list .type li:hover .img {border:1px solid #333; opacity:0.5;}
 .list .type li .img img {max-width:100%; height:auto; min-height:100px;}
 .list .type li .info {letter-spacing:-0.4px;}
 .list .type li .info dt {margin-top:10px; font-size:1.2rem; color:#222; line-height:130%; font-weight:500;}
 .list .type li:hover dt {color:#4688da;}
-.list .type li .info .info_detail {margin-top:10px; font-size:0.9rem;}
-.list .type li .info .info_url a {font-size:0.9rem; word-break:break-word; color:#888;}
+.list .type li .info .info_detail {margin-top:10px; font-size:0.9rem; color: #666;}
+.list .type li .info .info_url {font-size:0.9rem; word-break:break-word; color:#888;}
+.list .type li .info .info_url:before {content:''; float:left; display:inline-block; width:9px; height:9px; margin:4px 5px 0 0; background:url(../images/ico_link.png) no-repeat left top/100% auto;}
 .list .type li .info .sub {margin-top:25px; font-size:0;}
 .list .type li .info .sub img {width:23%; margin-right:2%;}
 .list.design .type li, .list.others .type li {cursor:pointer;}
@@ -238,8 +240,9 @@ body {color:#666; word-break:keep-all; overflow-x:hidden;}
 	.list .type li {width:32%; margin-right:2%; margin-bottom:20px;}
 	.list .type li:nth-child(2n) {float:left;}
 	.list .type li:nth-child(3n) {margin-right:0;}
-	.list .type li .info dt {margin-top:13px; font-size:1.3rem;}
+	.list .type li .info dt {margin-top:13px; font-size:1.15rem;}
 	.list .type li .info .info_detail {line-height:150%;}
+	.list .type li .info .info_url:before {width:11px; height:11px; margin-top:5px;}
 	.detail .info {padding:70px 20px 120px;}
 	.detail .info .txt {width:70%;}
 }
@@ -279,6 +282,7 @@ body {color:#666; word-break:keep-all; overflow-x:hidden;}
 	.list .type li {width:48%; margin-right:3%; /*margin-bottom:60px;*/}
 	.list .type li:nth-child(2n) {margin-right:0;}
 	.list .type li:nth-child(3n) {margin-right:2%;}
+	.list .type li .info dt {font-size:1.3rem;}
 	.detail .info .txt {width:55%;}
 }
 @media screen and (min-width: 1200px) {
